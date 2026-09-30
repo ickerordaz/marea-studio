@@ -3,7 +3,7 @@
 //  Formato: código de país + número, sin espacios ni "+"
 //  Ejemplo México: 5219841234567
 // ==========================================================
-const WHATSAPP = "5210000000000";
+const WHATSAPP = "527771042245";
 
 const waLink = (msg) =>
   `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(msg)}`;
